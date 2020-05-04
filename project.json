@@ -1,0 +1,65 @@
+{
+  "name": "Florida_GOP_Country_Part_List",
+  "description": "Data extraction challange",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Appium.WebDriver": "[4.1.1]",
+    "DotNetSeleniumExtras.PageObjects": "[3.11.0]",
+    "DotNetSeleniumExtras.WaitHelpers": "[3.11.0]",
+    "FeatSystems.ActivityHtmlExtractor.Activities": "[1.0.0]",
+    "RobotStatusPlusScreenshotActivities": "[1.0.0]",
+    "ScreenshotTaker": "[1.0.2]",
+    "Selenium.InternetExplorer.WebDriver": "[3.150.1]",
+    "Selenium.RC": "[3.1.0]",
+    "Selenium.Support": "[4.0.0-alpha05]",
+    "Selenium.WebDriver": "[4.0.0-alpha05]",
+    "Selenium.WebDriver.ChromeDriver": "[83.0.4103.1400-beta]",
+    "Selenium.WebDriver.IEDriver": "[3.150.1]",
+    "Selenium.WebDriver.MicrosoftDriver": "[17.17134.0]",
+    "Selenium.WebDriverBackedSelenium": "[4.0.0-alpha05]",
+    "UiPath.Excel.Activities": "[2.8.3-beta.867639]",
+    "UiPath.Java.Activities": "[1.0.7346.28183]",
+    "UiPath.Mail.Activities": "[1.8.3-preview]",
+    "UiPath.MobileAutomation.Activities": "[20.4.0-preview]",
+    "UiPath.System.Activities": "[20.4.0-beta.864462]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.866690]",
+    "UiPathTeam.XPathWebScrape.Activities": "[1.0.1]",
+    "Web.Screenshot": "[1.0.0.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_OrchestratorQueueName",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
+      }
+    ],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
